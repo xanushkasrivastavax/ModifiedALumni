@@ -1,0 +1,141 @@
+
+
+body{
+    margin : 0;
+padding: 0;
+font-family: 'Ubuntu', serif;
+font-size: 23px;
+background-color: white;
+background : repeating-linear-gradient(#7BABBE,#3B3D9A,  #1898);
+height: 1000px;
+}
+.navbar{
+display: flex;
+flex-direction: row;
+/* border: 2px solid black; */
+box-shadow: 1px 1px 8px black;
+margin-bottom: 50px;
+padding: 5px 5px;
+background :linear-gradient(180deg, #415F82,#415F82 );
+}
+#logo{
+margin: auto;
+margin-left: 20px;
+}
+#logo img{
+background: transparent;
+height: 40px;
+width: 40px;
+border-radius: 12px;
+}
+.navbar ul{
+display: flex;
+flex-direction: row;
+margin: auto;
+margin-left: 700px;
+}
+.navbar ul li{
+list-style: none;
+padding: 5%;
+}
+.navbar ul li a{
+text-decoration: none;
+font-weight: bold;
+color: #ffffff;
+font-size: 33px;
+}
+.container{
+display: flex;
+flex-direction: row;
+margin: auto;
+border-radius: 2px;
+box-shadow: 2px 2px 16px black;
+background: repeating-linear-gradient(#415F82,#7BABBE,#18989e);
+height: 500px;
+width: 1000px;
+}
+#icon{
+margin-top: 35px;
+margin-left: 210px;
+}
+#icon img{
+height: 90px;
+width: 90px;
+border-radius: 23px;
+}
+.intro{
+width: 50%;
+}
+.intro .heading{
+margin: 10px 40px;
+text-align: center;
+margin-bottom: 10px;
+}
+#btn{
+margin: auto;
+margin-left: 200px;
+}
+#btn button{
+border: none;
+width: 30%;
+box-shadow: 1px 1px 5px;
+border-radius: 5px;
+padding: 5px 16px;
+}
+.heading p{
+padding: 15px 30px;
+}
+.head{
+margin-top: 70px;
+}
+.heading h1 {
+padding: 10px;
+font-size: 40px;
+font-family: 'Ubuntu', cursive;
+}
+.heading h3{
+padding: 5px;
+}
+.signup{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.signup h1{
+text-align: center;
+font-size: 33px;
+}
+.signup .input{
+margin: 6px 100px;
+padding: 5px 10px;
+width: 60%;
+height: 30px;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 5px;
+}
+#niru{
+margin: auto;
+margin-top: 10px;
+padding: 5px 12px;
+width: 25%;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 5px;
+}
+.check{
+display: flex;
+flex-direction: row;
+margin: auto;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+.nam{
+  padding-right: 30%;
+}
+#checkbox{
+margin-top: 8px;
+margin-right: 10px;
+border: none;
+box-shadow: 1px 1px 1px;
+}

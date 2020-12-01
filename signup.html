@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta content='minimum-scale=1, initial-scale=1, width=device-width' name='viewport'>
+<meta charset='UTF-8'>
+
+<!--Favicon-->
+<link rel="icon" href="favicon.ico">
+<title>myJIITAlumni | Register</title>
+<link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" />
+<link rel="stylesheet" media="screen" href="//fonts.googleapis.com/css?family=Libre+Franklin&amp;display=fallback" />
+<style>
+  body, button, input, textarea { font-family: Libre Franklin, "proxima-nova", Helvetica, Arial, sans-serif !important; };
+</style>
+
+<link rel="stylesheet" media="screen, projection" href="https://d7nym2kmafwig.cloudfront.net/packs/css/56-e7be7b8c06ffb51c0f94.css" data-turbolinks-track="reload" />
+
+<style>
+  /*** Set globals ***/
+  :root {
+    --color-button-primary: rgba(56, 153, 221, 1);
+    --color-button-primary-text: #FAFAFA;;
+    --color-public-button-primary: #4473CF;
+    --color-public-button-primary-text: #FFFFFF;
+    --color-focus: rgba(56, 153, 221, 1);
+    --color-filters: rgba(56, 153, 221, 1);
+  }
+  
+  /*Public header dynamic color*/
+  
+  .header--menu__submenus li a, .rslides_tabs .rslides_here a {
+    background-color: rgba(12, 35, 64, 1)!important;
+  }
+  
+  .header__menu li a, .mobile__menu a, .dropdown-more-menu a {
+    color: #FAFAFA!important;
+  }
+  
+  /*Public top html-block section dynamic color*/
+  .html-block--top .cover-color {
+    background-color: #FFFFFF!important;
+  }
+  
+  /*Public bottom html-block section dynamic color*/
+  .html-block--bottom .cover-color {
+    background-color: ;
+  }
+  
+  /*Public news section dynamic color*/
+  .news .section-title {
+    background-color: ;
+  }
+  .news .section-title h2 {
+    color: ;
+  }
+  .news .btn {
+    color: ;
+    background-color: ;
+  }
+  .news .cover-color {
+    background-color: ;
+  }
+  .news .swiper-button {
+    background: ;
+    color: ;
+    background: ;
+    color: ;
+  }
+  .news .swiper-container:before {
+    background: ;
+    background: ;
+  }
+  .news .swiper-container:after {
+    background: ;
+    background: ;
+  }
+  
+  /*Public events section dynamic color*/
+  .events h2 {
+    color: ;
+  }
+  .events .btn {
+    color: ;
+    background-color: ;
+  }
+  .events .cover-color {
+    background-color: ;
+  }
+  .events .swiper-button {
+    background: ;
+    color: ;
+    background: ;
+    color: ;
+  }
+  .events .swiper-container:before {
+    background: ;
+    background: ;
+  }
+  .events .swiper-container:after {
+    background: ;
+    background: ;
+  }
+  
+  /*Public partners section dynamic color*/
+  .partners .section-title {
+    background-color: #FFFFFF!important;
+  }
+  .partners .section-title h2 {
+    color: rgba(12, 35, 64, 1)!important;
+  }
+  .partners .cover-color {
+    background-color: #FFFFFF!important;
+  }
+  
+  /*Public header menu item dynamic color*/
+  .header__menu > li a:after, .dropdown-more-menu .dropdown-menu li a:after {
+    background-color: rgba(201, 151, 0, 1)!important;
+  }
+  
+  .mobile__menu > ul li a.active {
+    border-left: 2px solid rgba(201, 151, 0, 1);
+  }
+  
+  
+  /*Public header menu dynamic height*/
+  body > .header-container--nav {
+    height: 65px;
+  }
+  body .header__menu > li > a, body .header__buttons--right a, body .js-dropdown-more-menu > a {
+    line-height: 65px;
+    height: 65px;
+  }
+  body .header__logo {
+    height: 65px;
+  }
+  body .homepage-network__container {
+    padding-top: 65px;
+  }
+  body .homepage-network__container--more-padding {
+    padding-top: 95.0px;
+  }
+  body .homepage-notif {
+    top: 65px !important;
+  }
+  body .homepage-notif--top-shifted {
+    top: 95.0px !important;
+  }
+  
+  /*Public header menu sticky or not*/
+  body > .header-container {
+    position: ;
+  }
+  
+  /*Slider dynamic color*/
+  .homepage__header-sider .legend h4, .homepage__header-sider .legend p {
+    color: #FFFFFF!important;
+    background-color: rgba(0, 0, 0, 0.3)!important;
+  }
+  .rslides li .legend {
+    top: 46%;
+    text-align: left;
+  }
+  
+  /*** Custom class for dynamic color ***/
+  /*color_header_public*/
+  .custom-color-header-public {
+    color: rgba(12, 35, 64, 1)!important;
+  }
+  .custom-bg-color-header-public {
+    background-color: rgba(12, 35, 64, 1)!important;
+  }
+  .custom-border-color-header-public {
+    border-color: rgba(12, 35, 64, 1)!important;
+  }
+  
+  /*color_mobile_header_public*/
+  .custom-color-mobile-header-public {
+    color: rgba(12, 35, 64, 1)!important;
+  }
+  .custom-bg-color-mobile-header-public {
+    background-color: rgba(12, 35, 64, 1)!important;
+  }
+  @media (max-width: 44.9375em) {
+    .custom-bg-color-mobile-header-public-if-mobile {
+      background-color: rgba(12, 35, 64, 1)!important;
+    }
+  }
+  .custom-border-color-mobile-header-public {
+    border-color: rgba(12, 35, 64, 1)!important;
+  }
+  
+  /*color_header_links_public*/
+  .custom-color-header-links-public {
+    color: #FAFAFA!important;
+  }
+  .custom-bg-color-header-links-public {
+    background-color: #FAFAFA!important;
+  }
+  .custom-border-color-header-links-public {
+    border-color: #FAFAFA!important;
+  }
+  
+  /*color_outline_navigation_public*/
+  .custom-color-outline-navigation-public {
+    color: rgba(201, 151, 0, 1)!important;
+  }
+  .custom-bg-color-outline-navigation-public {
+    background-color: rgba(201, 151, 0, 1)!important;
+  }
+  .custom-border-color-outline-navigation-public {
+    border-color: rgba(201, 151, 0, 1)!important;
+  }
+  
+  /*color_public_links*/
+  .custom-color-public-links {
+    color: #4473CF!important;
+  }
+  .custom-color-public-links:hover {
+    color: #2c56aa !important;
+  }
+  
+  /*color_public_button_primary*/
+  .custom-color-public-button-primary {
+    color: var(--color-public-button-primary) !important;
+  }
+  .custom-bg-color-public-button-primary {
+    background-color: var(--color-public-button-primary) !important;
+  }
+  .custom-bg-color-public-button-primary-transparentize {
+    background-color: ;
+  }
+  .custom-border-color-public-button-primary {
+    border-color: var(--color-public-button-primary) !important;
+  }
+  
+  /*color_login_button*/
+  .custom-color-login-button {
+    color: rgba(56, 153, 221, 1)!important;
+  }
+  .custom-bg-color-login-button {
+    background-color: rgba(56, 153, 221, 1)!important;
+  }
+  .custom-border-color-login-button {
+    border-color: rgba(56, 153, 221, 1)!important;
+  }
+  
+  /*color_header_social_icons_public*/
+  .custom-color-header-social-icons-public {
+    color: #FAFAFA!important;
+  }
+  .custom-bg-color-header-social-icons-public {
+    background-color: #FAFAFA!important;
+  }
+  .custom-border-color-header-social-icons-public {
+    border-color: #FAFAFA!important;
+  }
+  
+  /*color_footer*/
+  .custom-color-footer {
+    color: rgba(12, 35, 64, 1)!important;
+  }
+  .custom-bg-color-footer {
+    background-color: rgba(12, 35, 64, 1)!important;
+  }
+  .custom-border-color-footer {
+    border-color: rgba(12, 35, 64, 1)!important;
+  }
+  
+  /*color_footer_links*/
+  .custom-color-footer-links {
+    color: #FAFAFA!important;
+  }
+  .custom-bg-color-footer-links {
+    background-color: #FAFAFA!important;
+  }
+  .custom-border-color-footer-links {
+    border-color: #FAFAFA!important;
+  }
+</style>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="bJsQpiKwKFJaJobIpYQ75KxFyX7k/xq8qjNuzrSVmVvQs9dR6tZllIuF0dcHG67b4kH1LSgkC7YTbPx+hAcJWw==" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-29480234-14', 'auto', 'hivebriteTracker');
+  if (false) {
+    ga('hivebriteTracker.require', 'GTM-PKJ6Z5R');
+  }
+  ga('hivebriteTracker.set', 'anonymizeIp', true);
+  ga('hivebriteTracker.set', 'location', "https://nd-prod.us.hivebrite.com/signup");
+  ga('hivebriteTracker.send', 'pageview');
+</script>
+
+</head>
+<body class='tk-proxima-nova'>
+<a class='skip-to-content' tabindex='0'>
+<div class='skip-to-content--wrapper'>
+Skip to content
+</div>
+</a>
+
+<div class='homepage-network__notifications'>
+<div class='homepage-notif homepage-notif--success fixed west one-whole text--center' style='display: none;'>
+<div></div>
+<a class='homepage-notif__close-button' data-behavior='close-parent' href='#'>&times;</a>
+</div>
+<div class='homepage-notif homepage-notif--error fixed west one-whole text--center' style='display: none;'>
+<div></div>
+<a class='homepage-notif__close-button' data-behavior='close-parent' href='#'>&times;</a>
+</div>
+
+</div>
+<header class='custom-bg-color-header-public custom-bg-color-mobile-header-public-if-mobile header-container header-container--nav sticky-menu' data-testid='network-bar'>
+<div class='homepage-container lap-and-up--soft--sides' role='navigation'>
+<a class="js-logo-container header__logo-container" href="/"><img alt="JIIT Alumni Association logo" class="header__logo palm--soft--left" src="images/jiitlog.png" />
+</a><div class='js-menu-container header__menu-container'>
+<ul class='js-menu header__menu grid__item' data-testid='network-menu'>
+<li>
+<a class="" href="/page/about-us">About</a>
+<ul class='header--menu__submenus'>
+<li><a class="" href="/page/board">Board</a></li>
+<li><a class="" href="/page/staff">Staff</a></li>
+<li><a class="" href="/page/individual-awards">Individual Awards</a></li>
+<li><a class="" href="/page/club-awards">Club Awards</a></li>
+</ul>
+</li>
+<li>
+<a class="" href="/page/connect">Connect</a>
+</li>
+<li>
+<a class="" href="https://my.nd.edu/topics">Communities</a>
+<ul class='header--menu__submenus'>
+<li><a class="" href="/page/about-our-communities">About Our Communities</a></li>
+</ul>
+</li>
+<li>
+<a class="" href="/page/events-main">Events</a>
+<ul class='header--menu__submenus'>
+<li><a class="" target="_blank" rel="noopener noreferrer" href="https://my.nd.edu/events">Calendar</a></li>
+<li><a class="" href="/page/family-volunteer-camp">Family Volunteer Camp</a></li>
+<li><a class="" href="/page/football-fridays">Football Fridays</a></li>
+<li><a class="" href="/page/und-celebrations">College Celebrations</a></li>
+<li><a class="" target="_blank" rel="noopener noreferrer" href="https://reunion.nd.edu/">Reunion</a></li>
+</ul>
+</li>
+<li>
+<a class="" href="https://my.nd.edu/news">News</a>
+</li>
+<li>
+<a class="" href="/page/shop">Shop</a>
+<ul class='header--menu__submenus'>
+<li><a class="" href="/page/license-plates">License Plates</a></li>
+<li><a class="" href="/page/ornament">Ornament</a></li>
+<li><a class="" href="/page/alumni-gear">Alumni Gear</a></li>
+</ul>
+</li>
+<li>
+<a class="" href="/page/benefits">Benefits</a>
+</li>
+<li>
+<a class="" target="_blank" rel="noopener noreferrer" href="https://giving.nd.edu/">Give</a>
+</li>
+</ul>
+<div class='js-dropdown-more-menu dropdown-more-menu hard hidden grid__item dropdown'>
+<a class='item-actions' data-toggle='dropdown' href='#'>
+<span class='custom-color-header-links-public'>More</span>
+<i class='icon-chevron-down f-size--small color-white custom-color-header-links-public'></i>
+</a>
+<ul class='dropdown-menu dropdown-menu--right header--menu__submenus'></ul>
+</div>
+</div>
+<div class='js-buttons-right-container header__buttons--right hidden--palm'>
+<div class='inline-block'>
+</div>
+<div class='inline-block'>
+<a class="js-login block custom-color-header-links-public" href="/login">Login</a>
+</div>
+</div>
+<div class='toggle-mobile-menu hidden--lap-and-up'>
+<button aria-controls='mobile-menu' aria-expanded='false' aria-haspopup aria-label='Toggle main navigation' class='toggle-mobile-menu-button js-toggle-mobile-menu' type='button'>
+<i aria-hidden='true' class='custom-color-header-links-public icon-bars v-middle'></i>
+</button>
+</div>
+</div>
+<div aria-label='Main navigation' class='custom-bg-color-mobile-header-public mobile__menu hidden--lap-and-up js-mobile-menu' id='mobile-menu'>
+<ul role='menu'>
+<li>
+<a class="" href="/page/about-us">About</a>
+<button aria-expanded='false' aria-label='Toggle item sub-menu' class='custom-color-header-links-public toggle__sub-menu js-sub_menu_toggle' haspopup='true' type='button'></button>
+<ul class='mobile__sub-pages-customizables mobile__sub-pages-customizables--closed'>
+<li><a class="" href="/page/board">Board</a></li>
+<li><a class="" href="/page/staff">Staff</a></li>
+<li><a class="" href="/page/individual-awards">Individual Awards</a></li>
+<li><a class="" href="/page/club-awards">Club Awards</a></li>
+</ul>
+</li>
+<li>
+<a class="" href="/page/connect">Connect</a>
+</li>
+<li>
+<a class="" href="https://my.nd.edu/topics">Communities</a>
+<button aria-expanded='false' aria-label='Toggle item sub-menu' class='custom-color-header-links-public toggle__sub-menu js-sub_menu_toggle' haspopup='true' type='button'></button>
+<ul class='mobile__sub-pages-customizables mobile__sub-pages-customizables--closed'>
+<li><a class="" href="/page/about-our-communities">About Our Communities</a></li>
+</ul>
+</li>
+<li>
+<a class="" href="/page/events-main">Events</a>
+<button aria-expanded='false' aria-label='Toggle item sub-menu' class='custom-color-header-links-public toggle__sub-menu js-sub_menu_toggle' haspopup='true' type='button'></button>
+<ul class='mobile__sub-pages-customizables mobile__sub-pages-customizables--closed'>
+<li><a class="" target="_blank" rel="noopener noreferrer" href="/">Calendar</a></li>
+<li><a class="" href="/page/family-volunteer-camp">Family Volunteer Camp</a></li>
+<li><a class="" href="/page/football-fridays">Football Fridays</a></li>
+<li><a class="" href="/page/und-celebrations">College Celebrations</a></li>
+<li><a class="" target="_blank" rel="noopener noreferrer" href="/">Reunion</a></li>
+</ul>
+</li>
+<li>
+<a class="" href="/">News</a>
+</li>
+<li>
+<a class="" href="/page/shop">Shop</a>
+<button aria-expanded='false' aria-label='Toggle item sub-menu' class='custom-color-header-links-public toggle__sub-menu js-sub_menu_toggle' haspopup='true' type='button'></button>
+<ul class='mobile__sub-pages-customizables mobile__sub-pages-customizables--closed'>
+<li><a class="" href="/page/license-plates">License Plates</a></li>
+<li><a class="" href="/page/ornament">Ornament</a></li>
+<li><a class="" href="/page/alumni-gear">Alumni Gear</a></li>
+</ul>
+</li>
+<li>
+<a class="" href="/page/benefits">Benefits</a>
+</li>
+<li>
+<a class="" target="_blank" rel="noopener noreferrer" href="/">Give</a>
+</li>
+<li>
+<a class="js-login block custom-color-header-links-public" href="index.html">Logiinn</a>
+</li>
+</ul>
+</div>
+</header>
+
+<div class='homepage-network__container white--soft homepage-network__container--no-padding' role='main'>
+<div class='bg-center flexbox relative homepage__cover homepage__cover--big homepage__cover--fixed' id='js-swipe-slider' style='background-image:url("images/col.jpg");'>
+<div class='north west one-whole absolute black-curtain'></div>
+</div>
+
+<div class='homepage-container homepage-container--700'>
+<div class='grid grid--full grid--center relative'><div class='grid__item nine-twelfths palm--eleven-twelfths public-network-form soft'>
+<div class='soft--ends line-height-2 ckeditor-content--reset'>
+<p><span style="font-size:20px;">Register</span></p>
+
+<p><span style="font-size:14px;">Please enter your information below to begin the registration process.&nbsp;Use the email address where you receive emails from the Alumni Association for automatic approval.</span></p>
+
+<p><em>Adding activation information will help us find and link your existing account if the email address you use is not in the system.</em></p>
+
+</div>
+<form class="simple_form new_user" id="approval_form" novalidate="novalidate" action="/users/approval" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WAPh7nBN28EpMoCCXQmOaMAdA2FX//HS7bptf/ftWGgv68t7VAyYNWZzgDfwGGqRpmsiDgWD9Ky9HJwsUZ0gOQ==" /><div class="input hidden user_network_id"><input class="hidden" type="hidden" value="4" name="user[network_id]" id="user_network_id" /></div>
+<div class='grid'><div class='grid__item one-whole palm--one-whole'>
+<div class='grid'></div>
+</div><div class='grid__item one-half palm--one-whole'>
+<div class="input string required user_firstname"><label class="string required" for="user_firstname">Preferred first name <abbr title="required">*</abbr></label><input class="string required one-whole " required="required" aria-required="true" placeholder="Preferred first name (e.g. Bob, Katie)" type="text" name="user[firstname]" id="user_firstname" /></div>
+</div><div class='grid__item one-half palm--one-whole'>
+<div class="input string required user_lastname"><label class="string required" for="user_lastname">Last name <abbr title="required">*</abbr></label><input class="string required one-whole " required="required" aria-required="true" placeholder="Last name" type="text" name="user[lastname]" id="user_lastname" /></div>
+</div><div class='grid__item one-half palm--one-whole'>
+<div class="input string optional user_maidenname"><label class="string optional" for="user_maidenname">Maiden name</label><input class="string optional one-whole" placeholder="Maiden name (last name only)" type="text" name="user[maidenname]" id="user_maidenname" /></div>
+</div></div>
+<div class='grid'><div class='grid__item one-half palm--one-whole'>
+<div class="input string required user_birthday"><label class="string required" for="user_birthday_ybsorgpx">Birth date <abbr title="required">*</abbr></label><input id="user_birthday_ybsorgpx" class="string required" placeholder="yyyy-mm-dd" type="text" name="user[birthday]" /></div>
+<script>
+  (function () {
+    function defer(toWaitFor, fn) {
+      if (window[toWaitFor]) {
+        fn();
+      } else {
+        setTimeout(function () {
+          defer(toWaitFor, fn);
+        }, 50);
+      }
+    }
+  
+    defer("jQuery", function () {
+      $(function () {
+        defer("React", function () {
+          const input = document.getElementById("user_birthday_ybsorgpx");
+  
+          if (!input) {
+            console.warn(`Error while initializing DateTimePicker for input#user_birthday_ybsorgpx. Input was not found.`);
+            return;
+          }
+  
+          // Replace element with wrapper which will be a container for React Component
+          const container = document.createElement('span');
+          container.id = "user_birthday_ybsorgpx_container";
+          input.parentNode.insertBefore(container, input);
+  
+          const PickerComponent = React.createElement(ThemeProvider, {
+            children: React.createElement(DateTimePicker, {
+              name: input.name,
+              id: "user_birthday_ybsorgpx",
+              className: input.className,
+              disabled: input.disabled,
+              value: input.value,
+              displayFormat: I18n.t("date.formats.alt_format"),
+              enableTime: "" === "true",
+              locale: I18n.locale,
+              maxDate: "2034-12-31" || null,
+              minDate: "1920-12-01" || null,
+              placeholder: "yyyy-mm-dd",
+              required: input.required,
+              isValid: "true" === "true",
+            }),
+          });
+  
+          ReactDOM.render(PickerComponent, container);
+          input.parentNode.removeChild(input);
+        });
+      });
+    });
+  }());
+</script>
+
+</div></div>
+<div class='grid'>
+<div class='grid__item one-whole palm--one-whole'>
+<div class="input email required user_email"><label class="email required" for="user_email">Personal email <abbr title="required">*</abbr></label><input class="string email required one-whole flush" required="required" aria-required="true" placeholder="Personal email" type="email" name="user[email]" id="user_email" /></div>
+</div>
+</div>
+<div class='grid'></div>
+<div class='grid'></div>
+<div class='grid'></div>
+<div class='grid'></div>
+<div class='grid'></div>
+<div class='grid'></div>
+<fieldset class='custom-attr__group--show'>
+<legend>myJIITAlumni Experience</legend>
+<div id='user-customizable-attributes'>
+<div class='push-half--bottom text--left'>
+<div class="input decimal optional user__d69910b9_first_class_year"><label class="decimal optional" for="user__d69910b9_first_class_year">Preferred class year</label><input class="numeric decimal optional one-whole" data-toggle="tooltip" title="Class year that an ND alum associates with (usually the same as graduation year)" type="number" step="any" name="user[_d69910b9_first_class_year]" id="user__d69910b9_first_class_year" /></div>
+</div></div>
+
+</fieldset>
+<fieldset class='custom-attr__group--show'>
+<legend>Activation Information</legend>
+<div id='user-customizable-attributes'>
+<div class='push-half--bottom text--left'>
+<div class="input select optional user__569a046c_Affiliation_to_Notre_Dame"><label class="select optional" for="user__569a046c_Affiliation_to_Notre_Dame">Affiliation to myJIITAlumni</label><select class="select optional one-whole" name="user[_569a046c_Affiliation_to_Notre_Dame][]" data-select-config="{&quot;remote&quot;:false}" data-toggle="tooltip" data-placeholder="" select2title="If you have no prior connection to Notre Dame, choose none." id="user__569a046c_Affiliation_to_Notre_Dame"><option value=""></option>
+<option value="Alumni">Alumni</option>
+<option value="Parent">Parent</option>
+<option value="Friend">Friend</option>
+<option value="None">None</option></select></div>
+</div><div class='push-half--bottom text--left'>
+<div class="input decimal optional user__e8a53fad_Notre_Dame_ID"><label class="decimal optional" for="user__e8a53fad_JIIT_Dame_ID">JIIT Enrollment Number</label><input class="numeric decimal optional one-whole" data-toggle="tooltip" title="10-digit number located on mailing label of Notre Dame Magazine (or other physical mail)" type="number" step="any" name="user[_e8a53fad_Notre_Dame_ID]" id="user__e8a53fad_Notre_Dame_ID" /></div>
+</div><div class='push-half--bottom text--left'>
+<div class="input string optional user__e01fe2fb_netid"><label class="string optional" for="user__e01fe2fb_netid">NetID</label><input class="string optional one-whole  " data-toggle="tooltip" title="The part of your email address before the @nd.edu (if applicable)" placeholder="" type="text" name="user[_e01fe2fb_netid]" id="user__e01fe2fb_netid" /></div>
+</div></div>
+
+</fieldset>
+<div class='grid'></div>
+<div class='grid'></div>
+<div class='grid'></div>
+<div class='grid'></div>
+<div class=''>
+<div class='simple_captcha grid'>
+  <div class='simple_captcha_label grid__item one-half palm--one-whole v-middle'>
+    <label for="captcha">Captcha</label>
+    <input type="text" name="captcha" id="captcha" autocomplete="off" autocorrect="off" autocapitalize="off" required="required" placeholder="Type the code from the image" /><input type="hidden" name="captcha_key" id="simple-captcha-hidden-field-simple_captcha-45c6d38732b" value="45c6d38732be7045ff7fbe5a50827f6bec03d51c" />
+  </div><!--
+--><div class='simple_captcha_image grid__item one-half palm--one-whole v-middle text--center'>
+    <img src="https://nd-prod.us.hivebrite.com/simple_captcha?code=45c6d38732be7045ff7fbe5a50827f6bec03d51c&amp;time=1606809020" alt="captcha" id="simple_captcha-45c6d38732b" />
+  </div>
+</div>
+
+</div>
+<div class="nolem-kfhtyjzguqrac_1606809020"><style media="screen">.nolem-kfhtyjzguqrac_1606809020 {position:absolute!important;top:-9999px;left:-9999px;}</style><label for="nolem-kfhtyjzguqrac">Keep this blank</label><input type="text" name="nolem-kfhtyjzguqrac" id="nolem-kfhtyjzguqrac" autocomplete="off" tabindex="-1" /></div>
+<div class='grid'><div class='grid__item one-whole push-double--top'>
+<div class="input boolean required user_consent"><input name="user[consent]" type="hidden" value="0" /><input class="boolean required" required="required" aria-required="true" type="checkbox" value="1" name="user[consent]" id="user_consent" /><label class="boolean required" for="user_consent">I give consent to myJIIT Alumni Association to use this information to build a profile when my request is approved. <abbr title="required">*</abbr></label></div>
+</div></div>
+<div class='grid f-style--italic push-half--ends'>
+<div class='grid__item one-whole'>
+<span>* Required fields are marked with an asterisk</span>
+</div>
+</div>
+<div class='soft--top'>
+<input type="submit" name="commit" value="Register" class="button button--full button__validation" data-disable-with="Processing..." />
+</div>
+</form></div></div>
+</div>
+
+</div>
+<div aria-hidden='true' class='reveal-modal' data-reveal='' id='login-modal' role='dialog'>
+<div class='login-form soft-double'>
+<div class='grid'><div class='grid__item one-whole palm--one-whole'>
+<h2 class='landing-form__title'>Have an account? Login</h2>
+<div class='ckeditor-content--reset'><p style="text-align: center;">Faculty, Staff &amp; Students:<br />
+sign in with your campus credentials.</p>
+</div>
+<div class='text--center soft--bottom'>
+<a class="button button__validation button__sso" aria-label="Sign in with your SSO Account" href="http://webportal.jiit.ac.in/jiitwebkiosk/">Webkiosk</a>
+
+</div>
+<div class='or-separator'>
+<span>Or</span>
+</div>
+<form class="simple_form new_user" id="new_user" novalidate="novalidate" action="/sign-in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CkWHqfHCCYVfPZQZJwUFg/YdFGB7ZkG10H+YmXHEiUsL9B5Thr0lRBcsE8OUXXD7FFm7cbO8wU2j/Qbc0eJfIg==" /><input aria-hidden='true' name='network_id' type='hidden' value='nd-prod'>
+<input aria-hidden='true' name='[user]network_id' type='hidden' value='4'>
+<input aria-hidden='true' name='redirect_to' type='hidden' value=''>
+<div class="input email optional user_email"><input class="string email optional one-whole " aria-label="enter you email" autofocus="autofocus" placeholder="Email" type="email" name="user[email]" id="user_email" /></div>
+<div class="input password optional user_password"><input class="password optional one-whole flush " aria-label="enter your password" placeholder="Password" type="password" name="user[password]" id="user_password" /></div>
+<input aria-hidden="true" type="hidden" value="America/New_York" name="user[timezone]" id="user_timezone" />
+<div class="input hidden user_remember_me"><input value="1" class="hidden" type="hidden" name="user[remember_me]" id="user_remember_me" /></div>
+<div class='push-half--ends text--right f-size--small color-dark-gray forgot-password-link'>
+<a class="weight--semibold custom-color-public-links text-decoration--underlined underline-on-hover" href="/users/password/new">Reset password</a>
+</div>
+<input type="submit" name="commit" value="Login" class="button button button--full button__validation" />
+</form>
+<!-- / Social connects -->
+<div class='or-separator'>
+<span>Or</span>
+</div>
+<div class='soft--bottom'>
+If you have  linked your account to one of the following social networks, please click on the relevant icon to log in
+</div>
+<div class='text--center'>
+<div class='login-form__social-connect'>
+<a href='#loading-linkedin' id='linkedin-loading' style='display:none'></a>
+<div style='display:none'>
+<div id='loading-linkedin'></div>
+</div>
+</div>
+
+<div class='login-form__social-connect'>
+<a href='#loading-facebook' id='facebook-loading' style='display:none'></a>
+<div style='display:none'>
+<div id='loading-facebook'></div>
+</div>
+<a class="button rounded--circle social-button social-button__facebook" aria-label="Sign in with your Facebook Account" href="https://us.hivebrite.com/auth/facebook?network_id=4"><i class='icon-facebook icon-size--100'></i>
+<!-- /%span.v-middle= t('web.networks.show.social_button', { type: 'Facebook' }) -->
+</a></div>
+
+<div class='login-form__social-connect'>
+<a href='#loading-google' id='google-loading' style='display:none'></a>
+<div style='display:none'>
+<div id='loading-google'></div>
+</div>
+<a class="button rounded--circle social-button social-button__google" aria-label="Sign in with your Google Account" href="https://us.hivebrite.com/auth/google_oauth2?network_id=4"><i class='icon-google icon-size--100'></i>
+</a></div>
+
+</div>
+</div></div>
+<div class='push-double--top text--center'>
+<div class='push-quarter--bottom'>Not a member yet?</div>
+<a class="weight--semibold custom-color-public-links text-decoration--underlined underline-on-hover" href="/signup">Register</a>
+</div>
+</div>
+
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', "UA-150576756-3", 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script>
+  window.__HB_NETWORK__ = {
+    id: 4,
+    identifier: "nd-prod",
+  }
+</script>
+<script src="https://d7nym2kmafwig.cloudfront.net/packs/js/runtime-5afdf08013cd340b9de0.js" crossorigin="anonymous"></script>
+<script src="https://d7nym2kmafwig.cloudfront.net/packs/js/vendor-e178b0c3e17493424938.js" crossorigin="anonymous"></script>
+<script src="https://d7nym2kmafwig.cloudfront.net/packs/js/envs-11f46cc22863a75263f0.js" crossorigin="anonymous"></script>
+<script src="https://d7nym2kmafwig.cloudfront.net/packs/js/locales/en-d7bc5c7a9b382010cbb3.js" crossorigin="anonymous"></script>
+<script>
+  window.__HB_COUNTRY_CODE__ = "IN"
+  
+  if ("false" === "true") {
+    window.is_from_china = true
+  }
+  
+  window.__HB_LOCALE__ = "en"
+  
+  window.I18n.defaultLocale = "en"
+  window.I18n.locale = "en"
+  
+  var topicConfiguration = {
+    whitelabelURL: false,
+  }
+  
+  var donationConfiguration = {
+    whitelabelURL: true,
+  }
+  
+  window.__CLIENT_TRACKING__ = {
+    trackingId: "UA-150576756-3",
+  }
+  
+  var fromMarketing = ""
+  
+  window.__HB_TRACKING__ = {
+    trackingId: "UA-29480234-14",
+    comesFromMarketing: fromMarketing,
+    anonymizeIps: !fromMarketing,
+    anonymizedUrl: "https://nd-prod.us.hivebrite.com/signup",
+  }
+  
+  if (window.Hivebrite) {
+    window.Hivebrite.topic = topicConfiguration
+    window.Hivebrite.donation = donationConfiguration
+  } else {
+    window.Hivebrite = {
+      topic: topicConfiguration,
+      donation: donationConfiguration,
+    }
+  }
+</script>
+<script src="https://d7nym2kmafwig.cloudfront.net/assets/homepage_network_sprockets-796e7d4b501a643c68770349c854a878cd1b9d8af8989161edb74564be65fd69.js" crossorigin="anonymous"></script>
+<script src="https://d7nym2kmafwig.cloudfront.net/packs/js/homepage_network-9ede7ad3be807a4699b4.js" crossorigin="anonymous"></script>
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp&amp;language=en&amp;key=AIzaSyDxYvw7qj3d9T6IIQ5gb7Yi15nWOWSw3Mo&amp;libraries=places"></script>
+
+
+<style>
+  .cookies-eu {
+    border-top: 0;
+    background-color: rgba(12, 35, 64, 1)!important;
+    color: #FAFAFA!important;
+  }
+  .cookies-eu-link {
+    color: white!important;
+  }
+  .cookies-eu-ok {
+    background-color: rgba(56, 153, 221, 1)!important;
+  }
+</style>
+
+<div class="" data-component="CookieBannerAppStandalone" data-testid="cookie-banner-app-standalone" data-props="{&quot;env&quot;:&quot;po&quot;,&quot;network&quot;:{&quot;features&quot;:{&quot;cookies&quot;:{&quot;config&quot;:{&quot;cookies_banner_v2_enabled&quot;:true}}},&quot;colors&quot;:{&quot;button_primary&quot;:&quot;rgba(56, 153, 221, 1)&quot;,&quot;filters&quot;:&quot;rgba(56, 153, 221, 1)&quot;,&quot;focus&quot;:&quot;rgba(56, 153, 221, 1)&quot;,&quot;footer_links&quot;:&quot;#FAFAFA&quot;,&quot;footer&quot;:&quot;rgba(12, 35, 64, 1)&quot;,&quot;header_email&quot;:&quot;rgba(12, 35, 64, 1)&quot;,&quot;header_links_public&quot;:&quot;#FAFAFA&quot;,&quot;header_links&quot;:&quot;#FAFAFA&quot;,&quot;header_public&quot;:&quot;rgba(12, 35, 64, 1)&quot;,&quot;header_social_icons_public&quot;:&quot;#FAFAFA&quot;,&quot;header&quot;:&quot;rgba(10, 34, 64, 1)&quot;,&quot;links&quot;:&quot;rgba(56, 153, 221, 1)&quot;,&quot;login_button&quot;:&quot;rgba(56, 153, 221, 1)&quot;,&quot;public_links&quot;:&quot;#4473CF&quot;,&quot;public_button_primary&quot;:null,&quot;mobile_header_public&quot;:&quot;rgba(12, 35, 64, 1)&quot;,&quot;outline_navigation_public&quot;:&quot;rgba(201, 151, 0, 1)&quot;,&quot;outline_navigation&quot;:&quot;rgba(204, 151, 0, 1)&quot;},&quot;network_configuration&quot;:{&quot;payment_gateway&quot;:&quot;Braintree&quot;,&quot;has_payment_account&quot;:true}}}" data-loader="false"></div>
+<script>
+  $(function() {
+    // Video
+    $video = $('video');
+    if ($video.length != 0) $video[0].play();
+  
+    // Slider
+    $('.rslides').responsiveSlides({
+      auto : true,
+      speed: 2500,
+      timeout: 6500,
+      pager: AlumniConnect.Helpers.Global.isMobile.any() == null,
+      nav: true
+    });
+    // Slider swipe on mobile
+    var slider = document.getElementById('js-swipe-slider');
+    var sliderHammer = new Hammer(slider);
+    sliderHammer.on('swipeleft', function(e) {
+      $('.rslides_nav.next').trigger('click');
+    });
+    sliderHammer.on('swiperight', function(e) {
+      $('.rslides_nav.prev').trigger('click');
+    });
+  })
+</script>
+<script>
+  $(document).ready(function() {
+    dynamic_attributes_double_select('[data-double-select-options]')
+    dynamic_attributes_select('[data-select-config]')
+  });
+</script>
+<script>
+  $(document).ready(function() {
+    dynamic_attributes_double_select('[data-double-select-options]')
+    dynamic_attributes_select('[data-select-config]')
+  });
+</script>
+<script>
+  $(document).ready(function() {
+    $("#user_sub_network_ids").select2({
+      dropdownAutoWidth: true
+    }).select2({
+      placeholder: ""
+    });
+  
+    $("#user_topic_ids").select2({
+      dropdownAutoWidth: true
+    }).select2({
+      placeholder: "Select which groups you want to join"
+    });
+  
+   $("#user_industry_ids").select2({
+      dropdownAutoWidth: true,
+    }).select2({
+      placeholder: ""
+    });
+  
+    $("#user_nationality_ids").select2({
+      dropdownAutoWidth: true
+    }).select2({
+      placeholder: "(e.g. American, Irish, French)"
+    });
+  
+    select2_skills($('#user_skill_ids'),{ multiple: true, placeholder: ""});
+  
+  
+    $('#registration_form').submit(function() {
+        var user_email_value = $('#user_email').val();
+  
+        if(user_email_value.length === 0) {
+          alert("You have to enter an email address.");
+          return false;
+        }
+        if(user_email_value.indexOf('@') != -1) {
+          var wrong_part = user_email_value.substring(user_email_value.indexOf('@'), 99);
+          alert('Adresse email incorrecte "' + wrong_part + '".');
+          return false;
+        }
+    });
+  
+  });
+</script>
+<script>
+  $(function() {
+    $('.skip-to-content').on('keypress', function (e) {
+      if (e.keyCode === 13) {
+        $('.homepage-network__container')
+          .find('button, a, input:not([type="hidden"]):not([disabled]), select, textarea, [tabindex]:not([tabindex="-1"])')
+          .first()
+          .focus();
+      }
+    });
+  })
+</script>
+<script>
+  $(function() {
+    var initialScrollEvent = true;
+    var headerSocials      = $('.header-container--socials');
+    var headerNav          = $('.header-container--nav');
+    var headerNotif        = $('.homepage-notif');
+  
+    // Header socials bar
+    if (headerSocials.length > 0) {
+      if ($(window).scrollTop() <= 150) {
+        headerNotif.addClass('homepage-notif--top-shifted');
+      }
+  
+      $(window).scroll(function() {
+        if (!initialScrollEvent) {
+          var winTop = $(this).scrollTop();
+          if (winTop >= 150) {
+            headerNotif.removeClass('homepage-notif--top-shifted');
+            headerSocials.addClass('sticky-socials');
+            headerNav.removeClass('header-container--top-shifted');
+          } else {
+            headerNotif.addClass('homepage-notif--top-shifted');
+            headerSocials.removeClass('sticky-socials');
+            headerNav.addClass('header-container--top-shifted');
+          }
+        } else {
+          initialScrollEvent = false;
+        }
+      });
+    }
+  
+    var onKeyDownMobileNavigation = function (event) {
+      if (event.keyCode === 27) {
+        // Trigger closure of the menu on Esc key.
+        $('.js-toggle-mobile-menu').trigger('click');
+      }
+    }
+    $('.js-toggle-mobile-menu').click(function() {
+      var $this = $(this);
+      var $mobileMenu = $('.js-mobile-menu');
+      var isOpen = $mobileMenu.hasClass('open');
+  
+      $this.attr('aria-expanded', !isOpen).trigger('focus');
+      $this.find('i').toggleClass('icon-plus icon-bars');
+      $('body').toggleClass('scroll-desactivated', !isOpen);
+      $mobileMenu.toggleClass('open', !isOpen);
+      $(document)[isOpen ? 'off' : 'on']('keydown', onKeyDownMobileNavigation);
+    });
+  
+    $('.js-sub_menu_toggle').click(function() {
+      var $this = $(this);
+      var $parent = $this.parents('li');
+      var isOpen = $parent.hasClass('toggle__sub-menu--open');
+      var $submenu = $parent.find('.mobile__sub-pages-customizables');
+  
+      if (!isOpen) {
+        $submenu.removeClass('mobile__sub-pages-customizables--closed');
+      }
+      // Push it to the next event loop, so browser will remove closed class from submenu.
+      setTimeout(function () {
+        $parent.toggleClass('toggle__sub-menu--open', !isOpen);
+        $this.attr('aria-expanded', !isOpen);
+      }, 0);
+    });
+  
+    $('.mobile__sub-pages-customizables').on('transitionend webkitTransitionEnd', function() {
+      var $this = $(this);
+      var isOpen = $this.parents('li').hasClass('toggle__sub-menu--open');
+      // For closing set display to none, so screen readers will ignore it.
+      $this.toggleClass('mobile__sub-pages-customizables--closed', !isOpen);
+    });
+  
+    // Menu wrapped if too long
+    var windowWidth = 0;
+    var logoContainer = $('.js-logo-container');
+    var menuContainer = $('.js-menu-container');
+    var menu = $('.js-menu');
+    var buttonsRightContainer = $('.js-buttons-right-container');
+    var dropdownMoreMenu = $('.js-dropdown-more-menu');
+    var homepageContainer = $('.homepage-container');
+    var realWidth = 0;
+  
+    var wrapMenu = function() {
+      windowWidth = $(window).width() > homepageContainer.width() ? homepageContainer.width() : $(window).width();
+  
+      // If an element is missing, avoid
+      if (windowWidth && (logoContainer.length > 0) && (menuContainer.length > 0) && (menu.length > 0) && (buttonsRightContainer.length > 0) && (dropdownMoreMenu.length > 0)) {
+        realWidth = logoContainer.width() + menuContainer.width() + buttonsRightContainer.width();
+  
+        if (windowWidth < realWidth) {
+          moveRequiredLi();
+          dropdownMoreMenu.removeClass('hidden');
+        } else {
+          dropdownMoreMenu.addClass('hidden');
+          menuReveal();
+        }
+      } else {
+        // Reset menu opacity if avoid
+        menuReveal();
+      }
+    };
+  
+    var menuReveal = function() {
+      if (menuContainer.length > 0 && buttonsRightContainer.length > 0) {
+        menuContainer.css('opacity', 1);
+        buttonsRightContainer.css('opacity', 1);
+      } else {
+        $('.js-menu-container').css('opacity', 1);
+        $('.js-buttons-right-container').css('opacity', 1);
+      }
+    };
+  
+    var moveToMoreDropdown = function(el) {
+      el.detach().prependTo(dropdownMoreMenu.children('ul'));
+    };
+  
+    var clearMoreDropdown = function() {
+      if (dropdownMoreMenu.length > 0 && menu.length > 0) {
+        dropdownMoreMenu.children('ul').children().detach().appendTo(menu);
+      }
+      setTimeout(wrapMenu, 0);
+    };
+  
+    var moveRequiredLi = function() {
+      var lastLi = menu.children('li').last();
+  
+      if (lastLi.length > 0) {
+        moveToMoreDropdown(lastLi);
+        setTimeout(function() {
+          realWidth = logoContainer.width() + menuContainer.width() + buttonsRightContainer.width();
+  
+          if ((windowWidth - 10) < (realWidth)) {
+            moveRequiredLi();
+          } else {
+            menuReveal();
+          }
+        }, 0);
+      }
+    };
+  
+    $(window).on('resize', _.throttle(function() {
+      clearMoreDropdown();
+    }, 1500));
+    wrapMenu();
+  
+    // Open Login modal
+    $('.js-login').click(function(e) {
+      e.preventDefault();
+      if (false) {
+        window.location = $('a.js-login').eq(0).attr('href');
+      } else if (true) {
+        if (AlumniConnect.Helpers.Global.isMobile.any() == null && !(true)) {
+          $(document).on('opened.fndtn.reveal', '[data-reveal]', function() {
+            if ($("a.button__sso").length) {
+              $("a.button__sso").focus();
+            } else {
+              $("#new_user input[type=email]").focus();
+            }
+  
+            $(document).off('opened.fndtn.reveal', '[data-reveal]');
+          });
+          $('#new_user input[type=email], input[type=password]').removeClass('input-error');
+          $('#login-modal .field_with_errors').hide();
+          $("#login-modal").foundation('reveal', 'open', { animation_speed: 0 });
+        } else {
+          window.location = $('a.js-login').eq(0).attr('href');
+        }
+      }
+      $('body').css('overflow', 'scroll');
+      return false;
+    });
+  
+    var href = '';
+  
+    // Event login form closed
+    $(document).on('close.fndtn.reveal', '[data-reveal]', function() {
+      // Remove redirect to for Login/password
+      if ($(this).find('.delete-on-close').length > 0) {
+        $(this).find('.delete-on-close').remove();
+      }
+  
+      // Remove redirect to for social connect
+      $(this).find('.login-form__social-connect').each(function() {
+        href = $(this).find('a.social-button').attr('href');
+        if (href) {
+          if (href.search('&redirect_to=') != -1) {
+            href = href.substr(0, href.indexOf('&redirect_to='));
+            $(this).find('a.social-button').attr('href', href);
+          }
+        }
+      });
+  
+      // Remove redirect to for SSO button
+      href = $(this).find('a.button__sso').attr('href');
+      if (href) {
+        if (href.search('\\?redirect_to=') != -1) {
+          href = href.substr(0, href.indexOf('?redirect_to='));
+          $(this).find('a.button__sso').attr('href', href);
+        }
+      }
+    });
+  })
+</script>
+<script>
+  $(document).ready(function() {
+    $("input[name='user[timezone]']").val(moment.tz.guess());
+  });
+  $(function() {
+    var $inputs = $('#new_user input[type=email], input[type=password]');
+  
+    $("#new_user").submit(function(e) {
+      $.each($inputs, function(k, v) {
+        if ($(v).val() == "") {
+          e.preventDefault();
+          $(v).addClass('input-error');
+        } else {
+          $(v).removeClass('input-error');
+        }
+      })
+    })
+  
+    $inputs.keyup(function() {
+      $inputs.removeClass('input-error');
+      $('#login-modal .field_with_errors').hide();
+    })
+  })
+</script>
+<script>
+  $(document).ready(function() {
+    $(document).on("click", ".js-linkedin-auth", function(e) {
+      if(false){
+        return; //open in the same page on mobile and tablet
+      }
+      else {
+        e.preventDefault();
+        AlumniConnect.Helpers.Linkedin.openAuthWindow($(this).attr("href"));
+        return false;
+      }
+    });
+  
+    $("a#linkedin-loading").fancybox({
+        'hideOnContentClick': true,
+        'showCloseButton'   : false,
+        'overlayOpacity'    : 0.7,
+        'onStart'           : window.Loader.start,
+        'onClose'           : window.Loader.stop
+    });
+  })
+</script>
+<script>
+  $(document).ready(function() {
+    $("#login-modal").css("width", parseInt($('.login-form').css('width')));
+    $(document).on('open.fndtn.reveal', '#login-modal[data-reveal]', function () {
+      $('body').css('overflow', 'hidden');
+    });
+    $(document).on('close.fndtn.reveal', '#login-modal[data-reveal]', function () {
+      $('body').css('overflow', 'auto');
+    });
+  
+    $(document).on('click', '#loader', function(e){
+      $('#fancybox-overlay').click();
+      Loader.stop();
+    });
+  
+    if (window.self !== window.top) {
+      // Hide in iframe
+      $('.js-social-connects').hide();
+    }
+  });
+</script>
+
+
+
+
+</body>
+</html>
